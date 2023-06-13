@@ -9,6 +9,7 @@ const pool = createPool({
     database: process.env.db_name,
 });
 const app = express()
+console.log(app)
 
 app.use(express.json())
 
